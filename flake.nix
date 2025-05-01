@@ -3,6 +3,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     nvf = {
+      # Documentation: https://notashelf.github.io/nvf/
       url = "github:notashelf/nvf";
     };
   };
