@@ -1,0 +1,33 @@
+_: {
+  config.vim.lsp = {
+    enable = true;
+    formatOnSave = true;
+    lspkind.enable = false;
+    lightbulb.enable = false;
+    lspsaga.enable = false;
+    trouble.enable = true;
+    lspSignature.enable = true;
+  };
+
+  config.vim.languages = {
+    # General settings
+    enableLSP = true;
+    enableTreesitter = true;
+    enableExtraDiagnostics = true;
+    enableFormat = true;
+
+    # LSPs
+    bash.enable = true;
+    clang.enable = true;
+    ts.enable = true;
+    python.enable = true;
+    nix.enable = true;
+    lua.enable = true;
+    rust.enable = true;
+    go.enable = true;
+    typst.enable = true;
+    yaml.enable = true;
+    html.enable = true;
+    css.enable = true;
+  };
+}
