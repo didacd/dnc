@@ -29,5 +29,16 @@ _: {
     yaml.enable = true;
     html.enable = true;
     css.enable = true;
+    helm = {
+      enable = true;
+      lsp.enable = true;
+      treesitter.enable = true;
+    };
+    hcl = {
+      enable = true;
+      format.enable = true;
+      lsp.enable = true;
+      treesitter.enable = true;
+    };
   };
 }
