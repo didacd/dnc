@@ -34,11 +34,16 @@ _: {
       lsp.enable = true;
       treesitter.enable = true;
     };
-    hcl = {
+    terraform = {
       enable = true;
-      format.enable = true;
       lsp.enable = true;
       treesitter.enable = true;
     };
+    #hcl = {
+    #  enable = true;
+    #  format.enable = true;
+    #  lsp.enable = true;
+    #  treesitter.enable = true;
+    #};
   };
 }
