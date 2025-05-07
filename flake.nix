@@ -56,7 +56,7 @@
               ./modules/dashboard.nix
               ./modules/terminal.nix
             ];
-          }).with-helpers;
+          }).neovim;
       in {
         default = neovimWrapped;
       }

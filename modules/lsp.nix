@@ -10,10 +10,13 @@ _: {
   };
 
   config.vim.languages = {
+    # General settings
+    enableLSP = true;
     enableTreesitter = true;
     enableExtraDiagnostics = true;
     enableFormat = true;
 
+    # LSPs
     bash.enable = true;
     clang.enable = true;
     ts.enable = true;
