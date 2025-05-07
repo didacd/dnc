@@ -1,4 +1,5 @@
 _: {
+  config.vim.comments.comment-nvim.enable = true;
   config.vim.options = {
     mouse = "a"; # (a) - all modes // (i) - insert mode // etc...
     clipboard = "unnamedplus"; # Allows neovim to access the system clipboard
