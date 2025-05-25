@@ -55,6 +55,7 @@
               ./modules/neotree.nix
               ./modules/dashboard.nix
               ./modules/terminal.nix
+              ./modules/copilot.nix
             ];
           }).neovim;
       in {

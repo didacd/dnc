@@ -13,6 +13,6 @@ _: {
     tabstop = 2;
     number = true;
     relativenumber = false; # Overrides `number`
-    guifont = "CaskaydiaCove Nerd Font:12";
+    guifont = "CaskaydiaCove\ Nerd\ Font:12";
   };
 }
