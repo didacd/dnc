@@ -1,15 +1,15 @@
-<div style="text-align: center;margin-top: 20px;">
-  <h1>Didac's Neovim Configuration</h1>
-  <img
+<div style="display: flex; align-items: center; justify-content: center; margin-top: 20px; gap: 15px;">
+  <img 
     src="./assets/dnc_logo.png" 
-    width="70px"
-    height="auto"
-    style="display: block; margin: 0 auto;"
+    width="70px" 
+    height="auto" 
+    alt="DNC Logo" 
   />
-  <p style="margin-top: 10px; font-style: italic;">
-    — Made with Nix, and love. —
-  </p>
+  <h1 style="margin: 0; font-size: 1.5em;">Didac's Neovim Configuration</h1>
 </div>
+<p style="text-align: center; margin-top: 10px; font-style: italic;">
+  — Made with Nix, and love. —
+</p>
 
 ---
 
