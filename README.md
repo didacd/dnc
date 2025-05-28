@@ -1,6 +1,8 @@
-# Didac's Neovim Configuration
-
-_With Nix_
+<p align="center">
+  <img src="./assets/dnc_logo.png" width="170px" alt="DNC Logo"/>
+</p>
+<h1 align="center">Didac's Neovim Configuration</h1>
+<p align="center"><em>— Made with Nix, and love. —</em></p>
 
 ---
 
