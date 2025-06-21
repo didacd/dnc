@@ -3,5 +3,6 @@ _: {
     name = "catppuccin";
     enable = true;
     style = "mocha";
+    transparent = true;
   };
 }

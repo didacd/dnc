@@ -1,6 +1,7 @@
 _: {
   config.vim.lsp = {
     enable = true;
+    lspconfig.enable = true;
     formatOnSave = true;
     lspkind.enable = false;
     lightbulb.enable = false;
