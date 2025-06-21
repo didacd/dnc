@@ -56,6 +56,7 @@
               ./modules/dashboard.nix
               ./modules/terminal.nix
               ./modules/copilot.nix
+              ./modules/custom/ansible.nix
             ];
           }).neovim;
       in {
@@ -73,6 +74,7 @@
           pkgs.git
           pkgs.ripgrep
           pkgs.nodejs
+          pkgs.ansible-language-server # For Ansible support
         ];
       };
     });
