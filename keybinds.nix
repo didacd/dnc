@@ -42,6 +42,7 @@ _: {
         "<leader>gs" = "Git Status";
         "<leader>e" = "Explorer";
         "<leader>t" = "Terminal";
+        "<leader>d" = "Debugging";
       };
     };
   };

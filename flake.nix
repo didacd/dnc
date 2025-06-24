@@ -56,6 +56,7 @@
               ./modules/dashboard.nix
               ./modules/terminal.nix
               ./modules/copilot.nix
+              ./modules/debugger.nix
               ./modules/custom/ansible.nix
             ];
           }).neovim;

@@ -18,11 +18,25 @@ _: {
     bash.enable = true;
     clang.enable = true;
     ts.enable = true;
-    python.enable = true;
+
+    python = {
+      enable = true;
+      dap.enable = true;
+    };
+
     nix.enable = true;
     lua.enable = true;
-    rust.enable = true;
-    go.enable = true;
+
+    rust = {
+      enable = true;
+      dap.enable = true;
+    };
+
+    go = {
+      enable = true;
+      dap.enable = true;
+    };
+
     typst.enable = true;
     yaml.enable = true;
     html.enable = true;
