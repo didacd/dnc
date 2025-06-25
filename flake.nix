@@ -18,6 +18,7 @@
       "x86_64-linux"
       "x86_64-darwin"
       "aarch64-darwin"
+      "aarch64-linux"
     ];
 
     forEachSystem = f:
@@ -42,6 +43,7 @@
               ./keybinds.nix
               ./theme.nix
               ./ui.nix
+              ./modules/git.nix
               ./modules/lsp.nix
               ./modules/treesitter.nix
               ./modules/tabline.nix
