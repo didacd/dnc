@@ -1,6 +1,6 @@
 _: {
-  config.vim.dashboard = {
-    #dashboard-nvim.enable = true;
-    alpha.enable = true;
+  config.vim.dashboard.alpha = {
+    enable = true;
+    theme = "theta";
   };
 }
