@@ -28,8 +28,10 @@ _: {
     lua.enable = true;
 
     rust = {
+      treesitter.enable = true;
       enable = true;
       dap.enable = true;
+      crates.enable = true;
     };
 
     go = {
