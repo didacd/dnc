@@ -3,7 +3,7 @@ _: {
     enable = true;
     sources = {
       nvim_lsp = "[LSP]";
-      buffer = "[Buffer]";
+      #buffer = "[Buffer]";
       path = "[Path]";
     };
   };
