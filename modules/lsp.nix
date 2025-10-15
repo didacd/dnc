@@ -32,7 +32,7 @@ _: {
       enable = true;
       dap.enable = true;
       crates.enable = true;
-      lsp.package = ["rustup" "run" "stable" "rust-analyzer"];
+      #lsp.package = ["rustup" "run" "stable" "rust-analyzer"];
     };
 
     go = {
