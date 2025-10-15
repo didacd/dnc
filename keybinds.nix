@@ -10,19 +10,19 @@ _: {
       key = "<leader>tf";
       action = ":ToggleTerm direction=float<cr>";
       mode = "n";
-      desc = "Float";
+      desc = "ToggleTerm Float";
     }
     {
       key = "<leader>th";
       action = ":ToggleTerm direction=horizontal<cr>";
       mode = "n";
-      desc = "Horizontal";
+      desc = "ToggleTerm Horizontal";
     }
     {
       key = "<leader>tv";
       action = ":ToggleTerm direction=vertical<cr>";
       mode = "n";
-      desc = "Vertical";
+      desc = "ToggleTerm Vertical";
     }
   ];
   config.vim.binds = {
@@ -40,8 +40,9 @@ _: {
         "<leader>l" = "LSP";
         "<leader>h" = "Help Tags";
         "<leader>gs" = "Git Status";
+        "<leader>c" = "Git Conflict";
         "<leader>e" = "Explorer";
-        "<leader>t" = "Terminal";
+        "<leader>t" = "Toggle";
         "<leader>d" = "Debugging";
       };
     };
