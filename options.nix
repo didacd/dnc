@@ -1,7 +1,7 @@
 _: {
   config.vim.comments.comment-nvim.enable = true;
   config.vim.globals = {
-    clipboard = "osc52"; # Allows neovim to access the system clipboard through ssh
+    #clipboard = "osc52"; # Allows neovim to access the system clipboard through ssh
     # Note: If you use a terminal multiplexer like `zellij`, there is currently a bug
     # preventing this to work properly:
     # --> https://github.com/zellij-org/zellij/issues/4320
