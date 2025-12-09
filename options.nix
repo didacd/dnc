@@ -22,7 +22,8 @@ _: {
     relativenumber = false; # Overrides `number`
     guifont = "CaskaydiaCove\ Nerd\ Font:12";
   };
-  config.vim.utility.surround = {
-    enable = true;
+  config.vim.utility = {
+    ccc.enable = true;
+    surround.enable = true;
   };
 }
