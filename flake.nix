@@ -57,7 +57,7 @@
               ./modules/neotree.nix
               ./modules/dashboard.nix
               ./modules/terminal.nix
-              ./modules/copilot.nix
+              ./modules/opencode.nix
               ./modules/debugger.nix
               ./modules/custom/ansible.nix
             ];
