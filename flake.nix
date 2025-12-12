@@ -58,6 +58,7 @@
               ./modules/dashboard.nix
               ./modules/terminal.nix
               ./modules/opencode.nix
+              ./modules/snacks.nix
               ./modules/debugger.nix
               ./modules/custom/ansible.nix
             ];
