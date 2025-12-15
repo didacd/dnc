@@ -8,6 +8,8 @@ _: {
       setupOpts = {
         options = {
           numbers = "none";
+          indicator.style = "icon";
+          middle_mouse_command = "bdelete! %d";
         };
       };
     };
