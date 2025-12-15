@@ -8,6 +8,7 @@ _: {
     lspsaga.enable = false;
     trouble.enable = true;
     lspSignature.enable = true;
+    inlayHints.enable = true;
   };
 
   config.vim.languages = {
@@ -15,6 +16,7 @@ _: {
     enableExtraDiagnostics = true;
     enableFormat = true;
 
+    markdown.enable = true;
     bash.enable = true;
     clang.enable = true;
     ts.enable = true;
